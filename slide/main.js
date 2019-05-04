@@ -11,7 +11,7 @@ setInterval(() => {
 
 function x(n){
   if(n > 3){
-    n = n % 4
+    n = n % 3
     if(n === 0){
       n = 3
     }
