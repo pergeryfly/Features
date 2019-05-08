@@ -1,0 +1,26 @@
+.loading{
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.loading::before,.loading::after{
+  content: "";
+  border-radius: 50%;
+  background:black;
+  animation:s 1.5s linear infinite;
+}
+.loading::after{
+  position: absolute;
+  animation-delay: 0.75s;
+}
+@keyframes s{
+  0%{
+      width:0px;height:0px;opacity: 1;
+  }
+  100%{
+      width:100px;height: 100px;opacity: 0;
+  }
+}

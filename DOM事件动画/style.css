@@ -1,0 +1,26 @@
+*{margin:0;padding: 0;box-sizing: border-box}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div{
+    display: flex;
+    flex:1;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding:10px;
+    background: white;
+    transition: all 1s;
+}
+.red{
+    width: 300px;
+    height: 300px;
+    flex:0.18369;
+}
+.red.active{ background: red;}
+.blue.active{background: blue;}
+.green.active{background: green;}
+.yellow.active{background: yellow;}
+.orange.active{background: orange;}
+.purple.active{background: purple;} 
