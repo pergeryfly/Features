@@ -1,0 +1,46 @@
+.taiji{
+    width: 196px;
+    height: 396px;
+    border-radius: 100%;
+    margin:0 auto;
+    background: linear-gradient(to left, black 0%,black 1%,white 1%,white 100%);
+    border-top-color: blaCK;
+    border-style: solid;
+    border-width:2px 202px 2px 2px;
+    position: relative;
+    box-sizing: content-box;
+    animation: roll 3s infinite;
+    transform: rotate(30deg);
+}
+@keyframes roll {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }  
+.taiji::before{
+    content: "";
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    width: 50px;
+    height: 50px;
+    border: 75px solid white;
+    border-radius: 100%;
+    background: black;
+    box-sizing: content-box;
+}
+.taiji::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 50px;
+    height: 50px;
+    border: 75px solid black;
+    border-radius: 100%;
+    background: white;
+    box-sizing: content-box;
+}
