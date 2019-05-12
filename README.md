@@ -9,5 +9,6 @@
 * [最后一次做轮播了](http://www.pengfeipeng.cn/Features/轮播/最后一次做轮播了//index.html)
 * [旋转太极图](http://www.pengfeipeng.cn/Features/太极//index.html)
 * [自适应导航栏](http://www.pengfeipeng.cn/Features/自适应导航栏//index.html)
+* [自适应导航栏](http://www.pengfeipeng.cn/Features/hover me//index.html)
 
 ***
