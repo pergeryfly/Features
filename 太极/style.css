@@ -9,7 +9,7 @@
     border-width:2px 202px 2px 2px;
     position: relative;
     box-sizing: content-box;
-    animation: roll 3s infinite;
+    animation: roll 3s linear infinite;
     transform: rotate(30deg);
 }
 @keyframes roll {
