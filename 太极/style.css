@@ -9,8 +9,12 @@
     border-width:2px 202px 2px 2px;
     position: relative;
     box-sizing: content-box;
+<<<<<<< HEAD
     animation: roll 3s infinite;
     /* 绑定动画roll ，并使此动画线性运转 */
+=======
+    animation: roll 3s linear infinite;
+>>>>>>> c81024ea4a4298ed16b06872e3fa6713709a3f41
     transform: rotate(30deg);
 }
 @keyframes roll {
