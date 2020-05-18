@@ -10,5 +10,5 @@
 * [旋转太极图](http://www.pengfeipeng.cn/Features/太极//index.html)
 * [自适应导航栏](http://www.pengfeipeng.cn/Features/自适应导航栏//index.html)
 * [hoverme](http://www.pengfeipeng.cn/Features/按钮浮动动画//index.html)
-
+* [搜索框](http://www.pengfeipeng.cn/Features/搜索框//index.html)
 ***

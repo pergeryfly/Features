@@ -10,6 +10,7 @@
     position: relative;
     box-sizing: content-box;
     animation: roll 3s infinite;
+    /* 绑定动画roll ，并使此动画线性运转 */
     transform: rotate(30deg);
 }
 @keyframes roll {
@@ -20,6 +21,7 @@
       transform: rotate(360deg);
     }
   }  
+  /*使太极图360度旋转*/
 .taiji::before{
     content: "";
     position: absolute;
